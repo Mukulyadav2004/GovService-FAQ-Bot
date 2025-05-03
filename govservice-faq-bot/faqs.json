@@ -1,0 +1,26 @@
+{
+    "keywords": {
+      "passport": "passport_info",
+      "apply": "passport_info",
+      "status": "passport_status",
+      "check status": "passport_status",
+      "processing time": "passport_time",
+      "how long": "passport_time",
+      "cost": "passport_cost",
+      "fee": "passport_cost",
+      "documents": "passport_docs",
+      "required docs": "passport_docs"
+    },
+    "responses": {
+      "passport_info": "To apply for a passport, please visit the official government passport portal and fill out the online application form. You will need specific documents.",
+      "passport_status": "You can check your passport application status online using your application reference number on the official portal.",
+      "passport_time": "The current estimated processing time for a standard passport application is approximately {processing_time} weeks. This can vary.",
+      "passport_cost": "The standard fee for a new passport application is {passport_fee} INR. Fees may differ for expedited services or specific categories.",
+      "passport_docs": "Commonly required documents include proof of address, proof of date of birth, and identity proof. Check the official website for the exact list.",
+      "default": "Sorry, I couldn't understand your question. Please try rephrasing or ask about passport application, status, cost, processing time, or documents."
+    },
+    "dynamic_data_providers": {
+      "passport_time": "get_processing_time",
+      "passport_cost": "get_passport_fee"
+    }
+  }
